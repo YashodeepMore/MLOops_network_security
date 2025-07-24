@@ -41,3 +41,19 @@ DATA_VALIDATION_INVALID_DIR:str = "invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR:str = "drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME:str = "report.yaml"
 PREPROCESSING_OBJECT_FILE_NAME:str = "preprocessor.pkl"
+
+
+"""
+Data trasnformation related constant  start with DATA_TRANSFORMATION
+"""
+DATA_TRANSFORMATION_DIR_NAME = "data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR = "transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT = "transformed_object"
+DATA_TRANSFORMATION_OBJECT_FILE_NAME = "preprocessor.pkl"
+
+#parameters for knn imputer for missing nan values
+DATA_TRANSFORMATION_IMPUTER_PARAM:dict = {
+    "missing_value" : np.nan,
+    "n_neighbours" : 3,
+    "weights" : "uniform"
+}
