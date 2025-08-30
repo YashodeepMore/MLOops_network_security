@@ -69,7 +69,7 @@ class DataTransformation:
 
             preprocessor = self.get_data_transformer_object()
             preprocessor_object = preprocessor.fit(input_features_train_df)
-            logging,info("created preprocessor_object in intiate data transformation method")
+            logging.info("created preprocessor_object in intiate data transformation method")
 
             transformed_input_features_train=preprocessor.transform(input_features_train_df)
             transformed_input_features_test = preprocessor.transform(input_features_test_df)

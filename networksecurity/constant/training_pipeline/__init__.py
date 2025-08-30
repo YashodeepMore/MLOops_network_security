@@ -14,6 +14,13 @@ TRAIN_FILE_NAME ="train.csv"
 TEST_FILE_NAME = "test.csv"
 
 
+SAVED_MODEL_DIR =os.path.join("saved_models")
+MODEL_FILE_NAME = "model.pkl"
+
+
+
+
+
 
 """
 Data ingestion related constant start with DATA_INGESTION  Variable name
@@ -53,7 +60,20 @@ DATA_TRANSFORMATION_OBJECT_FILE_NAME = "preprocessor.pkl"
 
 #parameters for knn imputer for missing nan values
 DATA_TRANSFORMATION_IMPUTER_PARAM:dict = {
-    "missing_value" : np.nan,
-    "n_neighbours" : 3,
+    "missing_values" : np.nan,
+    "n_neighbors" : 3,
     "weights" : "uniform"
 }
+
+
+"""
+Model Trainer ralated constant start with MODE TRAINER VAR NAME
+"""
+
+MODEL_TRAINER_DIR_NAME: str = "model_trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR: str = "trained_model"
+MODEL_TRAINER_TRAINED_MODEL_NAME: str = "model.pkl"
+MODEL_TRAINER_EXPECTED_SCORE: float = 0.6
+MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD: float = 0.05
+
+TRAINING_BUCKET_NAME = "netwworksecurity"
