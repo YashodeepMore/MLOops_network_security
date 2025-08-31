@@ -1,6 +1,7 @@
 #FIle
 test_mongodb.py
 Artifact
+mlruns
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

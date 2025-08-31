@@ -6,3 +6,4 @@ scikit-learn
 certifi
 pyaml
 streamlit
+mlflow
