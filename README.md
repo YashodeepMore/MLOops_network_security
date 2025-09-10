@@ -7,7 +7,6 @@ This project is an end-to-end **MLOps pipeline** designed to detect and respond 
 
 ---
 
-![alt text](<Screenshot 2025-09-11 001151.png>)
 
 ## Project Highlights
 
@@ -33,7 +32,7 @@ This project is an end-to-end **MLOps pipeline** designed to detect and respond 
 
 ## Pipeline Architecture
 
-![Pipeline Architecture](path/to/your/image.png)
+![alt text](<Screenshot 2025-09-11 001151.png>)
 *High-level overview of the pipeline workflow from data ingestion to model pushing.*
 
 ---
